@@ -19,6 +19,27 @@ extension BattlePhase {
     var isCountdown: Bool { self == .countdown }
     var isAlarm: Bool { self == .alarm }
     var isVictoryLap: Bool { self == .victoryLap }
+    
+    func displayText(timeRemaining: Int, victoryTime: Int) -> String {
+        if case .countdown = self {
+            return timeRemaining <= 10
+            ? "\(max(timeRemaining, 0))"
+            : formatTime(timeRemaining)
+        }
+        
+        if case .victoryLap = self {
+            return "Victory Lap \(formatTime(victoryTime))"
+        }
+        
+        return ""
+    }
+    
+    private func formatTime(_ seconds: Int) -> String {
+        let seconds = max(seconds, 0)
+        let minutes = seconds / 60
+        let remainder = seconds % 60
+        return String(format: "%02d:%02d", minutes, remainder)
+    }
 }
 
 final class BattleTimerViewModel: ObservableObject {
@@ -86,32 +107,6 @@ final class BattleTimerViewModel: ObservableObject {
     }
 }
 
-// MARK: - Helper Extension for Text Formatting
-private extension BattlePhase {
-    func displayText(timeRemaining: Int, victoryTime: Int) -> String {
-           switch self {
-           case .countdown:
-               if timeRemaining <= 10 {
-                   return "\(max(timeRemaining, 0))"
-               }
-               return formatTime(timeRemaining)
-
-           case .victoryLap:
-               return "Victory Lap \(formatTime(victoryTime))"
-
-           case .alarm:
-               return ""
-           }
-       }
-
-       private func formatTime(_ seconds: Int) -> String {
-           let seconds = max(seconds, 0)
-           let minutes = seconds / 60
-           let remainder = seconds % 60
-           return String(format: "%02d:%02d", minutes, remainder)
-       }
-
-}
 
 // MARK: - View
 struct TikTokBattleTimerBadge: View {

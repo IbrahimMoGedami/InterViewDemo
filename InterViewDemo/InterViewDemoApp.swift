@@ -11,7 +11,7 @@ import SwiftUI
 struct InterViewDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            TikTokBattleTimerBadge()
+            MultiFieldFocusView()
         }
     }
 }

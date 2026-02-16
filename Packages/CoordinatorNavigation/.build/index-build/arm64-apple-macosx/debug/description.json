@@ -1,0 +1,375 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CoordinatorNavigation-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/sources",
+      "importPath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertModifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/BottomSheetOverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/Coordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType+UI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationContainerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/PresentationStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouteType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/TransitionPresentationStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CoordinatorNavigation",
+      "moduleOutputPath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/Modules/CoordinatorNavigation.swiftmodule",
+      "objects" : [
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/AlertConfig.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/AlertModifier.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/BottomSheetOverlayView.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/Coordinator.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/CoordinatorType+UI.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/CoordinatorType.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/CoordinatorView.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/NavigationContainerView.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/NavigationCoordinator.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/PresentationStyle.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/RouteType.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/RouterView.swift.o",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/TransitionPresentationStyle.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/include/CoordinatorNavigation-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "coordinatornavigation"
+      ],
+      "outputFileMapPath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/Modules/CoordinatorNavigation.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertConfig.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertModifier.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/BottomSheetOverlayView.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/Coordinator.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType+UI.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorView.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationContainerView.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationCoordinator.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/PresentationStyle.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouteType.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouterView.swift",
+        "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/TransitionPresentationStyle.swift"
+      ],
+      "tempsPath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CoordinatorNavigation" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CoordinatorNavigation",
+      "-package-name",
+      "coordinatornavigation",
+      "-c",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertConfig.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertModifier.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/BottomSheetOverlayView.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/Coordinator.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType+UI.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorView.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationContainerView.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationCoordinator.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/PresentationStyle.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouteType.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouterView.swift",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/TransitionPresentationStyle.swift",
+      "-I",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/include/CoordinatorNavigation-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "coordinatornavigation",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CoordinatorNavigation" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/AlertModifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/BottomSheetOverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/Coordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType+UI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/CoordinatorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationContainerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/NavigationCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/PresentationStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouteType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/RouterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/Sources/CoordinatorNavigation/TransitionPresentationStyle.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/CoordinatorNavigation.build/sources"
+    },
+    "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ibrahimogedami/Desktop/InterViewDemo/InterViewDemo/Packages/CoordinatorNavigation/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

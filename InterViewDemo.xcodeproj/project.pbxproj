@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		25731AB92F40A2F700849D21 /* CoordinatorNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 258DC7302EDF0000002D1D46 /* CoordinatorNavigation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		258DC7072EDE9D7E002D1D46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25731AB92F40A2F700849D21 /* CoordinatorNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = InterViewDemo;
 			packageProductDependencies = (
+				258DC7302EDF0000002D1D46 /* CoordinatorNavigation */,
 			);
 			productName = InterViewDemo;
 			productReference = 258DC6F92EDE9D7D002D1D46 /* InterViewDemo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 258DC6F02EDE9D7D002D1D46;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				258DC72F2EDF0000002D1D46 /* XCLocalSwiftPackageReference "Packages/CoordinatorNavigation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 258DC6FA2EDE9D7D002D1D46 /* Products */;
 			projectDirPath = "";
@@ -578,6 +587,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		258DC72F2EDF0000002D1D46 /* XCLocalSwiftPackageReference "Packages/CoordinatorNavigation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CoordinatorNavigation;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		258DC7302EDF0000002D1D46 /* CoordinatorNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 258DC72F2EDF0000002D1D46 /* XCLocalSwiftPackageReference "Packages/CoordinatorNavigation" */;
+			productName = CoordinatorNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 258DC6F12EDE9D7D002D1D46 /* Project object */;
 }
